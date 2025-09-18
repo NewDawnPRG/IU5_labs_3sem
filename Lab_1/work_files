@@ -1,0 +1,53 @@
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1$ cd work
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ ls -al
+итого 16
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  .
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  ..
+drwxrwxr-x 2 igor igor 4096 сен 19 00:00 'Калмыков Александр Юрьевич'
+drwxrwxr-x 2 igor igor 4096 сен 19 00:00 'Лабораторная работа N1'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod ug+rwx "Лабораторная работа N1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod o+w "Лабораторная работа N1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ ls -al
+итого 16
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  .
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  ..
+drwxrwxr-x 2 igor igor 4096 сен 19 00:00 'Калмыков Александр Юрьевич'
+drwxrwxrwx 2 igor igor 4096 сен 19 00:00 'Лабораторная работа N1'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod o-rx "Лабораторная работа N1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod u-rx "Калмыков Александр Юрьевич"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ ls -al
+итого 16
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  .
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  ..
+d-w-rwxr-x 2 igor igor 4096 сен 19 00:00 'Калмыков Александр Юрьевич'
+drwxrwx-w- 2 igor igor 4096 сен 19 00:00 'Лабораторная работа N1'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod go-w "Калмыков Александр Юрьевич"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ ls -al
+итого 16
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  .
+drwxrwxr-x 4 igor igor 4096 сен 19 00:00  ..
+d-w-r-xr-x 2 igor igor 4096 сен 19 00:00 'Калмыков Александр Юрьевич'
+drwxrwx-w- 2 igor igor 4096 сен 19 00:00 'Лабораторная работа N1'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ touch "Text @1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ touch "Text $2"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ touch "Text #3"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ echo -e "Птица говорун отличается умом и сообразительностью! \nОтличается умом, отличается сообразительностью..." > "Text @1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cp "Text @1" "Text \$2"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ mv "Text \$2" "Лабораторная работа N1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ chmod +rwx "Калмыков Александр Юрьевич"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cp "Text @1" "Калмыков Александр Юрьевич"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ gzip "Text @1"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ gzip "Text #3"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ tar -cf 'MyAchiv' Text\ \@1.gz Text\ \#3.gz
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ tar -xf MyAchiv
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ gzip -d Text\ @1
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ gzip -d Text\ #3
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ head -n 1 'Text @1' > 'Text #3'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ echo -e "\nБудь осторожен! Преступник вооружен!" >> Text\ #3
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cd "Калмыков Александр Юрьевич"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work/Калмыков Александр Юрьевич$ touch Result_one
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work/Калмыков Александр Юрьевич$ cd ..
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$  tac 'Text @1' >> "Калмыков Александр Юрьевич"/"Result_one"
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ mv "Калмыков Александр Юрьевич"/Result_one "Калмыков Александр Юрьевич"/Result_two
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cp 'Калмыков Александр Юрьевич'/'Text @1' 'Лабораторная работа N1'/'Result_3'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cat /proc/cpuinfo >> 'Лабораторная работа N1'/'Result_3'

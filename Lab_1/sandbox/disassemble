@@ -1,0 +1,28 @@
+Dump of assembler code for function _start:
+   0x000000000040101d <+0>:     mov    $0x4,%rax
+   0x0000000000401024 <+7>:     mov    $0x1,%rbx
+   0x000000000040102b <+14>:    movabs $0x401000,%rcx
+   0x0000000000401035 <+24>:    mov    $0x1d,%rdx
+   0x000000000040103c <+31>:    int    $0x80
+   0x000000000040103e <+33>:    mov    $0x1,%rax
+   0x0000000000401045 <+40>:    mov    $0x0,%rbx
+   0x000000000040104c <+47>:    int    $0x80
+End of assembler dump.
+
+Dump of assembler code for function main:
+   0x0000000000001149 <+0>:     endbr64
+   0x000000000000114d <+4>:     push   %rbp
+   0x000000000000114e <+5>:     mov    %rsp,%rbp
+   0x0000000000001151 <+8>:     lea    0xeac(%rip),%rax        # 0x2004
+   0x0000000000001158 <+15>:    mov    %rax,%rdi
+   0x000000000000115b <+18>:    call   0x1050 <puts@plt>
+   0x0000000000001160 <+23>:    lea    0xea6(%rip),%rax        # 0x200d
+   0x0000000000001167 <+30>:    mov    %rax,%rdi
+   0x000000000000116a <+33>:    call   0x1050 <puts@plt>
+   0x000000000000116f <+38>:    lea    0xea0(%rip),%rax        # 0x2016
+   0x0000000000001176 <+45>:    mov    %rax,%rdi
+   0x0000000000001179 <+48>:    call   0x1050 <puts@plt>
+   0x000000000000117e <+53>:    mov    $0x0,%eax
+   0x0000000000001183 <+58>:    pop    %rbp
+   0x0000000000001184 <+59>:    ret
+End of assembler dump.
