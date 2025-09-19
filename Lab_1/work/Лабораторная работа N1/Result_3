@@ -1,5 +1,4 @@
-Птица говорун отличается умом и сообразительностью! 
-Отличается умом, отличается сообразительностью...
+Калмыков Александр Юрьевич/Text @1
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
@@ -7,7 +6,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1307.531
+cpu MHz		: 1037.098
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -35,7 +34,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1299.092
+cpu MHz		: 882.253
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -63,7 +62,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1165.143
+cpu MHz		: 1400.014
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -91,7 +90,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1272.346
+cpu MHz		: 1300.051
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -119,7 +118,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1300.118
+cpu MHz		: 845.821
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -147,7 +146,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1300.000
+cpu MHz		: 734.084
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -175,7 +174,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1300.147
+cpu MHz		: 400.000
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8
@@ -203,7 +202,7 @@ model		: 126
 model name	: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 stepping	: 5
 microcode	: 0xca
-cpu MHz		: 1300.000
+cpu MHz		: 1387.606
 cache size	: 8192 KB
 physical id	: 0
 siblings	: 8

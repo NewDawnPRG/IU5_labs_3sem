@@ -49,5 +49,5 @@ igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work/Калмы
 igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work/Калмыков Александр Юрьевич$ cd ..
 igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$  tac 'Text @1' >> "Калмыков Александр Юрьевич"/"Result_one"
 igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ mv "Калмыков Александр Юрьевич"/Result_one "Калмыков Александр Юрьевич"/Result_two
-igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cp 'Калмыков Александр Юрьевич'/'Text @1' 'Лабораторная работа N1'/'Result_3'
-igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/lab1/work$ cat /proc/cpuinfo >> 'Лабораторная работа N1'/'Result_3'
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/Lab_1/work$ ls "Калмыков Александр Юрьевич"/T* > "Лабораторная работа N1"/Result_3
+igor@asusigorpc:~/Документы/labs_bmstu/3 sem (asm)/Lab_1/work$ cat /proc/cpuinfo >> 'Лабораторная работа N1'/'Result_3'
