@@ -3,7 +3,7 @@ format ELF64
 public _start
 place db "23453", 0
 
-include 'help.asm'
+include 'func.asm'
 
 
 _start:

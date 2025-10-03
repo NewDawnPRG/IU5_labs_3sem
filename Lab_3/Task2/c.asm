@@ -25,14 +25,13 @@ _start:
     mov [c], rax
     xor rsi, rsi
 
-    ; Вычисление ((((c/b)+a)/c)+a)
-    mov rax, [c]      ; rax = c
-    cqo               ; Знаковое расширение rax в rdx:rax
-    idiv qword [b]    ; rax = c/b (целочисленное деление)
-    add rax, [a]      ; rax = (c/b) + a
-    cqo               ; Знаковое расширение rax в rdx:rax
-    idiv qword [c]    ; rax = ((c/b)+a)/c (целочисленное деление)
-    add rax, [a]      ; rax = (((c/b)+a)/c)+a
+    mov rax, [c]
+    cqo
+    idiv qword [b]
+    add rax, [a]
+    cqo
+    idiv qword [c]
+    add rax, [a]
 
     call print_int
     xor rsi, rsi
